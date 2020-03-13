@@ -5,7 +5,6 @@ const aboutRouter = require('./routes/aboutRouter');
 const adoptRouter = require('./routes/adoptRouter');
 const contactRouter = require('./routes/contactRouter');
 const favoritesRouter = require('./routes/favoritesRouter');
-// const homeRouter = require('./routes/homeRouter');
 const matchRouter = require('./routes/matchRouter');
 const volunteerRouter = require('./routes/volunteerRouter');
 
@@ -20,7 +19,6 @@ app.use('/about', aboutRouter);
 app.use('/adopt', adoptRouter);
 app.use('/contact', contactRouter);
 app.use('/favorites', favoritesRouter);
-// app.use('/home', homeRouter);
 app.use('/match', matchRouter);
 app.use('/volunteer', volunteerRouter);
 
